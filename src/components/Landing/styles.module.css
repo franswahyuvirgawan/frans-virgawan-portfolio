@@ -1,0 +1,47 @@
+.heading {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif;
+}
+
+.rotateMin {
+  transform: rotate(10.106deg);
+}
+
+.rotateMax {
+  transform: rotate(-5.214deg);
+}
+
+.parallax {
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+  color: black;
+}
+
+.parallax .scroller {
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  font-size: 28px;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+@media (min-width: 1024px) {
+  .parallax .scroller {
+    font-size: 58px;
+  }
+}
+
+.parallax span {
+  display: block;
+  margin-right: 30px;
+}
