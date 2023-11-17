@@ -7,8 +7,8 @@ import { AnimatePresence, motion } from "framer-motion";
 export default function Index() {
   const [loading, setLoading] = useState(false);
   const data = [
-    { name: "Work", href: "work" },
     { name: "About", href: "about" },
+    { name: "Work", href: "work" },
     { name: "Contact", href: "contact" },
   ];
   const [menuOpen, setMenuOpen] = useState(false);
